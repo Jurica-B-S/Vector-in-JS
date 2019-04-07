@@ -4,7 +4,7 @@ class Vector{
     this._y = y; 
   }
   get length(){
-    return (Math.sqrt(Math.sqr(this._x) + Math.sqr(this._y)));
+    return Math.sqrt((Math.pow(this._x,2) + Math.pow(this._y,2)));
   }
 
   plus(b){
